@@ -1,0 +1,15 @@
+numbers=[12,34,13,65,34,23,545]
+even=[]
+odd=[]
+while len(numbers)>0:
+    number=numbers.pop()
+    if(number %2==0):
+        even.append(number)
+    else:
+        odd.append(number)
+
+for index in range(len(even)):
+    print ("even: ",even[index])
+
+for index2 in range(len(odd)):
+    print("odd: ", odd[index2])
